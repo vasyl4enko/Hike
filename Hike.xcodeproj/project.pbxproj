@@ -11,6 +11,10 @@
 		11FB154D2A4DDCED00E6FEF8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FB154C2A4DDCED00E6FEF8 /* ContentView.swift */; };
 		11FB154F2A4DDCEE00E6FEF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11FB154E2A4DDCEE00E6FEF8 /* Assets.xcassets */; };
 		11FB15522A4DDCEE00E6FEF8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11FB15512A4DDCEE00E6FEF8 /* Preview Assets.xcassets */; };
+		11FB15592A4DE2C500E6FEF8 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FB15582A4DE2C500E6FEF8 /* CardView.swift */; };
+		11FB155C2A4DE41500E6FEF8 /* CustomBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FB155B2A4DE41500E6FEF8 /* CustomBackgroundView.swift */; };
+		11FB155F2A4DE61A00E6FEF8 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FB155E2A4DE61A00E6FEF8 /* ColorExtension.swift */; };
+		11FB15612A4DECC000E6FEF8 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FB15602A4DECC000E6FEF8 /* CustomButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		11FB154C2A4DDCED00E6FEF8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		11FB154E2A4DDCEE00E6FEF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		11FB15512A4DDCEE00E6FEF8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		11FB15582A4DE2C500E6FEF8 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		11FB155B2A4DE41500E6FEF8 /* CustomBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBackgroundView.swift; sourceTree = "<group>"; };
+		11FB155E2A4DE61A00E6FEF8 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		11FB15602A4DECC000E6FEF8 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +59,12 @@
 		11FB15492A4DDCED00E6FEF8 /* Hike */ = {
 			isa = PBXGroup;
 			children = (
+				11FB155D2A4DE60500E6FEF8 /* Utility */,
 				11FB154A2A4DDCED00E6FEF8 /* HikeApp.swift */,
 				11FB154C2A4DDCED00E6FEF8 /* ContentView.swift */,
 				11FB154E2A4DDCEE00E6FEF8 /* Assets.xcassets */,
 				11FB15502A4DDCEE00E6FEF8 /* Preview Content */,
+				11FB155A2A4DE3FD00E6FEF8 /* Component */,
 			);
 			path = Hike;
 			sourceTree = "<group>";
@@ -65,6 +75,24 @@
 				11FB15512A4DDCEE00E6FEF8 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		11FB155A2A4DE3FD00E6FEF8 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				11FB15582A4DE2C500E6FEF8 /* CardView.swift */,
+				11FB155B2A4DE41500E6FEF8 /* CustomBackgroundView.swift */,
+				11FB15602A4DECC000E6FEF8 /* CustomButton.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		11FB155D2A4DE60500E6FEF8 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				11FB155E2A4DE61A00E6FEF8 /* ColorExtension.swift */,
+			);
+			path = Utility;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +166,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				11FB154D2A4DDCED00E6FEF8 /* ContentView.swift in Sources */,
+				11FB15592A4DE2C500E6FEF8 /* CardView.swift in Sources */,
+				11FB15612A4DECC000E6FEF8 /* CustomButton.swift in Sources */,
 				11FB154B2A4DDCED00E6FEF8 /* HikeApp.swift in Sources */,
+				11FB155C2A4DE41500E6FEF8 /* CustomBackgroundView.swift in Sources */,
+				11FB155F2A4DE61A00E6FEF8 /* ColorExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
