@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		113652322A4EB51E008005D8 /* ButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113652312A4EB51E008005D8 /* ButtonStyle.swift */; };
+		113652342A4EBBCE008005D8 /* CustomCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113652332A4EBBCE008005D8 /* CustomCircleView.swift */; };
+		113652362A4EBDE6008005D8 /* MotionAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113652352A4EBDE6008005D8 /* MotionAnimationView.swift */; };
+		113652392A4EC690008005D8 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113652382A4EC690008005D8 /* SettingsView.swift */; };
 		11FB154B2A4DDCED00E6FEF8 /* HikeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FB154A2A4DDCED00E6FEF8 /* HikeApp.swift */; };
 		11FB154D2A4DDCED00E6FEF8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FB154C2A4DDCED00E6FEF8 /* ContentView.swift */; };
 		11FB154F2A4DDCEE00E6FEF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11FB154E2A4DDCEE00E6FEF8 /* Assets.xcassets */; };
@@ -20,6 +23,9 @@
 
 /* Begin PBXFileReference section */
 		113652312A4EB51E008005D8 /* ButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyle.swift; sourceTree = "<group>"; };
+		113652332A4EBBCE008005D8 /* CustomCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCircleView.swift; sourceTree = "<group>"; };
+		113652352A4EBDE6008005D8 /* MotionAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionAnimationView.swift; sourceTree = "<group>"; };
+		113652382A4EC690008005D8 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		11FB15472A4DDCED00E6FEF8 /* Hike.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hike.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11FB154A2A4DDCED00E6FEF8 /* HikeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeApp.swift; sourceTree = "<group>"; };
 		11FB154C2A4DDCED00E6FEF8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -42,6 +48,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		113652372A4EC677008005D8 /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				11FB154C2A4DDCED00E6FEF8 /* ContentView.swift */,
+				113652382A4EC690008005D8 /* SettingsView.swift */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
 		11FB153E2A4DDCED00E6FEF8 = {
 			isa = PBXGroup;
 			children = (
@@ -63,7 +78,7 @@
 			children = (
 				11FB155D2A4DE60500E6FEF8 /* Utility */,
 				11FB154A2A4DDCED00E6FEF8 /* HikeApp.swift */,
-				11FB154C2A4DDCED00E6FEF8 /* ContentView.swift */,
+				113652372A4EC677008005D8 /* Screen */,
 				11FB154E2A4DDCEE00E6FEF8 /* Assets.xcassets */,
 				11FB15502A4DDCEE00E6FEF8 /* Preview Content */,
 				11FB155A2A4DE3FD00E6FEF8 /* Component */,
@@ -85,6 +100,8 @@
 				11FB15582A4DE2C500E6FEF8 /* CardView.swift */,
 				11FB155B2A4DE41500E6FEF8 /* CustomBackgroundView.swift */,
 				11FB15602A4DECC000E6FEF8 /* CustomButton.swift */,
+				113652332A4EBBCE008005D8 /* CustomCircleView.swift */,
+				113652352A4EBDE6008005D8 /* MotionAnimationView.swift */,
 			);
 			path = Component;
 			sourceTree = "<group>";
@@ -169,10 +186,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				11FB154D2A4DDCED00E6FEF8 /* ContentView.swift in Sources */,
+				113652342A4EBBCE008005D8 /* CustomCircleView.swift in Sources */,
 				11FB15592A4DE2C500E6FEF8 /* CardView.swift in Sources */,
 				11FB15612A4DECC000E6FEF8 /* CustomButton.swift in Sources */,
 				11FB154B2A4DDCED00E6FEF8 /* HikeApp.swift in Sources */,
+				113652392A4EC690008005D8 /* SettingsView.swift in Sources */,
 				11FB155C2A4DE41500E6FEF8 /* CustomBackgroundView.swift in Sources */,
+				113652362A4EBDE6008005D8 /* MotionAnimationView.swift in Sources */,
 				11FB155F2A4DE61A00E6FEF8 /* ColorExtension.swift in Sources */,
 				113652322A4EB51E008005D8 /* ButtonStyle.swift in Sources */,
 			);
